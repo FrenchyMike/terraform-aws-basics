@@ -71,7 +71,7 @@ In our use case the provider is [AWS](https://registry.terraform.io/providers/ha
 
 Let's configure it. Create and edit a `main.tf` file with the following code:
 
-```
+```tf
 provider "aws" {
     region = "eu-west-3"
     access_key = "your access key"
@@ -87,7 +87,7 @@ Let's create our first resource:
 
 When using terraform the general syntax is "
 
->```
+>```tf
 >resource "<PROVIDER>_<TYPE>" "NAME" {
 >  CONFIG_BLOC
 >}
