@@ -228,7 +228,10 @@ To clean infrastructure based on main.tf, run the following command: `terraform 
 ## Directory organization
 
 For better visibility let's create and organize a dedicated directory for tf files:
-> `mkdir tf`
+
+```bash
+mkdir tf
+```
 
 Split our `main.tf` into:
 * [`provider.tf`](tf/provider.tf) file with the provider configuration
